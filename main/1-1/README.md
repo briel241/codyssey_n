@@ -14,23 +14,21 @@
 ```text
 1-1/
 ├── README.md
-├── docs/
-│   ├── model-comparison.md
-│   ├── system-design.md
-│   ├── run-log.md
-│   └── unresolved.md
-└── bonus/
-    ├── image-generation.md
-    └── incident-timeline.png
+├── model-comparison.md
+├── system-design.md
+├── run-log.md
+├── unresolved.md
+├── image-generation.md
+└── incident-timeline.png
 ```
 
 | 문서 | 내용 |
 |---|---|
-| [모델 비교 및 선정](docs/model-comparison.md) | GPT·Claude·Gemini의 동일 입력 비교, 평가 기준 및 선정 근거 |
-| [시스템 설계](docs/system-design.md) | 페르소나, v1·v2 시스템 프롬프트, 입력 템플릿, 검증 및 개선 이력 |
-| [실행 로그](docs/run-log.md) | 모델 비교 원문, v1 20턴·v2 18턴 대화와 검증 색인 |
-| [미해결 기록](docs/unresolved.md) | v2에서 남은 세부 조사 항목 누락과 데이터 한계 |
-| [보너스: 이미지 생성](bonus/image-generation.md) | 경영진 보고용 타임라인의 원문, 생성 방식 및 결과 검토 |
+| [모델 비교 및 선정](model-comparison.md) | GPT·Claude·Gemini의 동일 입력 비교, 평가 기준 및 선정 근거 |
+| [시스템 설계](system-design.md) | 페르소나, v1·v2 시스템 프롬프트, 입력 템플릿, 검증 및 개선 이력 |
+| [실행 로그](run-log.md) | 모델 비교 원문, v1 20턴·v2 18턴 대화와 검증 색인 |
+| [미해결 기록](unresolved.md) | v2에서 남은 세부 조사 항목 누락과 데이터 한계 |
+| [보너스: 이미지 생성](image-generation.md) | 경영진 보고용 타임라인의 원문, 생성 방식 및 결과 검토 |
 
 ## 진행 과정 및 결과
 
@@ -44,7 +42,7 @@
 
 ## 사용 순서
 
-1. [시스템 설계 문서](docs/system-design.md)의 **5.2 시스템 프롬프트 v2**를 사용 중인 LLM의 지침 입력란 또는 새 대화에 입력합니다.
+1. [시스템 설계 문서](system-design.md)의 **5.2 시스템 프롬프트 v2**를 사용 중인 LLM의 지침 입력란 또는 새 대화에 입력합니다.
 2. **5.3 유저 프롬프트**의 예시 또는 **5.4 재사용 가능한 입력 템플릿**에 관제 메모를 작성하여 전달합니다.
 3. 출력된 사실을 원문과 대조하고, 미확인 항목은 관련 로그·파일·내부 규정으로 확인합니다.
 
@@ -54,4 +52,4 @@
 
 v2의 경영진 보고용 3줄 요약을 바탕으로 제작한 가상 사고 타임라인입니다.
 
-![침해 의심 사고 초동 대응 타임라인](bonus/incident-timeline.png)
+![침해 의심 사고 초동 대응 타임라인](incident-timeline.png)

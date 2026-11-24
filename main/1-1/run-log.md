@@ -1144,6 +1144,6 @@ AI: 로그 원문이나 세부 항목(탐지 시각, 대상 서버 호스트/IP,
 
 | 번호 | 수행 작업 | 결과·근거 |
 |---:|---|---|
-| 23 | v2 T10 경영진 보고용 AI 응답 본문을 발췌 | [보너스 입력 원문](../bonus/image-generation.md#2-이미지-생성에-사용한-ai-응답-원문) |
-| 24 | ChatGPT 이미지 생성 기능으로 해당 응답을 시각화 | [타임라인 PNG](../bonus/incident-timeline.png) 생성 |
-| 25 | 생성 이미지의 주요 수치 및 미확인 사항을 원문과 대조 | [결과 검토](../bonus/image-generation.md#5-결과-검토) |
+| 23 | v2 T10 경영진 보고용 AI 응답 본문을 발췌 | [보너스 입력 원문](image-generation.md#2-이미지-생성에-사용한-ai-응답-원문) |
+| 24 | ChatGPT 이미지 생성 기능으로 해당 응답을 시각화 | [타임라인 PNG](incident-timeline.png) 생성 |
+| 25 | 생성 이미지의 주요 수치 및 미확인 사항을 원문과 대조 | [결과 검토](image-generation.md#5-결과-검토) |
